@@ -5,6 +5,7 @@ This repository contains materials for a pilot phonetic study on how speakers of
 ## Contents
 
 - `stimuli_table.csv` – a spreadsheet of lexical items used as stimuli in the experiment.
+- - `scripts/plot_F1_F2_rounded_front_vowels_with_targets.R` – R script for visualizing F1–F2 distributions of rounded vowels, with reference targets from native French data.
 - (future) `praat_scripts/` – scripts for acoustic analysis.
 - (future) `data/` – formant measurements and annotations.
 
@@ -19,7 +20,8 @@ The study explores how first language (L1) phonetic patterns influence the produ
 ## Tools
 
 - Praat for acoustic analysis
-- Python/R (planned) for data processing and visualization
+- R (ggplot2, dplyr, ggforce) for visualization and statistical summaries
+- Python (planned) for data processing
 
 ## License
 
