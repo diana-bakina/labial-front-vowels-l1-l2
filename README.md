@@ -6,7 +6,8 @@ This repository contains materials for a pilot phonetic study on how speakers of
 
 - `stimuli_table.csv` – a spreadsheet of lexical items used as stimuli in the experiment.
 - `scripts/plot_F1_F2_rounded_front_vowels_with_targets.R` – R script for visualizing F1–F2 distributions of rounded vowels, with reference targets from native French data.
-- - `scripts/plot_formant_trajectories_by_consonant_type.R` – R script to visualize F1 and F2 trajectories for each vowel across time, grouped by preceding consonant type and language.
+- `scripts/plot_formant_trajectories_by_consonant_type.R` – R script to visualize F1 and F2 trajectories for each vowel across time, grouped by preceding consonant type and language.
+- `scripts/all_vowel_plots.R` – R script to clean, average, and plot formant trajectories for multiple vowel sets and participants.
 - (future) `data/` – formant measurements and annotations.
 
 ## Purpose
