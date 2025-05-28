@@ -16,7 +16,11 @@ The study explores how first language (L1) phonetic patterns influence the produ
 - `scripts/plot_F1_F2_rounded_front_vowels_with_targets.R` – R script for visualizing F1–F2 distributions of rounded vowels, with reference targets from native French data.
 - `scripts/plot_formant_trajectories_by_consonant_type.R` – R script to visualize F1 and F2 trajectories for each vowel across time, grouped by preceding consonant type and language.
 - `scripts/all_vowel_plots.R` – R script to clean, average, and plot formant trajectories for multiple vowel sets and participants.
-- (future) `data/` – formant measurements and annotations.
+- data/ – contains participant recordings, formant measurements, and annotations:
+  ├── participant_<ID>_<lang>.wav – audio recordings (fr, ru)
+  ├── participant_<ID>_<lang>.TextGrid – vowel, word, and trial annotations
+  ├── participant_<ID>_<lang>.csv – extracted formant values (F1, F2, F3) at 10 timepoints per vowel
+  └── stimuli_list.csv – list of lexical items used in the experiment
 
 ## Formant Extraction (Praat)
 
